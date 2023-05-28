@@ -1,0 +1,26 @@
+.parent {
+  border: 5px solid black;
+  width: 500px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+.parent2 {
+  border: 5px solid black;
+  width: 500px;
+  height: 200px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.child {
+  border: 2px solid black;
+  margin: 5px 10px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}

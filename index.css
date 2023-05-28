@@ -1,0 +1,19 @@
+h1 {
+  background-color: red;
+}
+
+#header1 {
+  background-color: blue;
+}
+
+.header-class {
+  background-color: violet;
+}
+
+h4:hover {
+  background-color: gray;
+}
+
+article > p {
+  color: red;
+}
