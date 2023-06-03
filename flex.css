@@ -1,0 +1,35 @@
+.parent {
+  border: 1px solid black;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.child1 {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+  background-color: blue;
+  flex-grow: 2;
+  align-self: flex-start;
+  order: 7;
+}
+
+.child2 {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+  background-color: red;
+  flex-grow: 2;
+}
+
+.child3 {
+  border: 1px solid black;
+  height: 100px;
+  margin: 10px;
+  background-color: green;
+  flex-grow: 1;
+  order: -1;
+}
