@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 .logo {
   background-color: black;
   padding: 20px;

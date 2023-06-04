@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="album.css" />
+    <script src="album.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -35,7 +36,7 @@
           <label> Enter Description</label>
           <input id = "descriptionId" type = text></input>
 
-          <button type="button" class="btn btn-primary">Submit</button>
+          <button type="button" class="btn btn-primary">Add album</button>
         </form>  
       </section>
       <section class="thumbnails">
@@ -155,19 +156,4 @@
       <a href="#">Back To Top</a>
     </footer>
   </body>
-  <script>
-     var image = document.getElementById("imageId");
-
-     const button = document.getElementsByClassName("btn");
-
-     const imageCard = document.getElementById("imageId1");
-
-     const description =  document.getElementById("descriptionId");
-     
-     button[0].addEventListener("click" , function () {
-          console.log("button clicked");
-          const value = image.value;
-          imageCard.setAttribute("src", value);
-     })  
-  </script>
 </html>
